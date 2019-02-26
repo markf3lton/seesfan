@@ -775,3 +775,7 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 # by `blt.settings.php`. See [BLT's documentation](http://blt.readthedocs.io)
 # for more detail.
 #
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/gorillaglue/gorillaglue-settings.inc';
+}
+

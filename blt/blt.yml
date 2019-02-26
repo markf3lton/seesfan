@@ -9,7 +9,8 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    - 'svn-6123.devcloud.hosting.acquia.com:gorillaglue.git'
 deploy:
   tag_source: true
 drush:
@@ -36,3 +37,5 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cloud:
+  appId: 88bb8ff7-6370-4773-8ce1-38b51c97593d
