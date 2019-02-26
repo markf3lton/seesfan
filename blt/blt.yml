@@ -15,7 +15,7 @@ deploy:
   tag_source: true
 drush:
   aliases:
-    remote: '${project.machine_name}.test'
+    remote: 'gorillaglue.dev'
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
