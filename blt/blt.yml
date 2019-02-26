@@ -1,9 +1,9 @@
 project:
   machine_name: seesfan
   prefix: BLT
-  human_name: 'BLTed 8'
+  human_name: 'seesfan BLT 8 standard'
   profile:
-    name: lightning
+    name: standard
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
